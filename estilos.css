@@ -1,36 +1,36 @@
 body
 {
-   margin: 0; 
-   padding: 0;
+    margin : 0;
+    padding: 0;
 }
 
 h1
 {
-   color: rgb(130, 155, 176); 
-   background-color: azure;
-   text-align: center;
-   margin: 0;
-   padding: 20px;
+    color : white;
+    background-color: #960000;
+    text-align: center;
+    margin : 0;
+    padding: 20px;
 }
 
 .conteudo
 {
     font-size: 20px;
-    margin: 10px;
+    margin : 10px;
     padding: 10px;
 }
 
 .subtitulo
 {
     font-size: 30px;
-    color: rgb(188, 201, 213);
+    color : #960000;
     font-weight: bold;
     text-decoration: underline;
 }
 
 .exemplo1
 {
-    border: 1px solid rgb(112, 142, 152);
+    border: 1px solid #960000;
     border-radius: 10px;
     margin: 10px;
     padding: 10px;
@@ -67,19 +67,30 @@ justify-content: flex-start;
 }
 
 
+.exemplo2
+{
+    border: 1px solid #960000;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
 
+    height: 300px;
+}
 
+.meio
+{
+    display: flex;
+    align-items: center;
+}
 
+.topo
+{
+    display: flex;
+    align-items: flex-start;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.rodape
+{
+    display: flex;
+    align-items: flex-end;
+}
